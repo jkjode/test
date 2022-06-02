@@ -1,0 +1,195 @@
+/*Global styling*/
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(/fonts/Bebas\ Neue/);
+    font-family: Gentium;
+    src: url(/fonts/Gentium/)
+}
+
+body {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    'header header header' 
+    'nav nav nav' 
+    'main main main' 
+    'footer footer footer';
+    grid-template-rows: auto;
+    width: 100vw;
+    overflow-x: 100vw;
+}
+
+header {grid-area: header;}
+nav {grid-area: nav;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+header {
+    background: url(/images/rainydays_logo.png);
+    background-repeat: no-repeat;
+    background-color: #3F402D;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 10px;
+    text-align: center;
+    height: 170px;
+    display: block;
+    position: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#headerContent {
+    margin: 0 auto; 
+    width: 50%;
+}
+
+.logo, .border {
+    left: 50%;
+    top: 50%;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.rainydays {
+    display: block;
+    justify-content: center;
+}
+
+.border {
+    display: block;
+    justify-content: center;
+}
+ 
+body {
+    
+    background-color: #D9D9D9;
+    background-image: url("/images/yellowjacketbeach.png")
+    size: 100%;
+    
+}
+
+.logo {
+    display: inline-block;
+    size: 99%;    
+    align-items: center;
+}
+
+.border {
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+
+
+/*navigation*/
+nav { 
+    height: 50px;
+    
+}
+
+ul {
+    text-align: center;
+    
+}
+
+
+.menu, .menu1, .current {
+    font-family: Bebas Neue;
+    font-size: 1.2em;
+    background-color: #F2F2F2;
+    color: #3F402D;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    padding: .2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: solid #3F402D 2px;
+    }
+
+.menu, .menu1 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+.current {
+    background-color: #3F402D;
+    color: #F2F2F2;
+    border: solid #3F402D 1px;
+    
+}
+
+
+/*index image*/
+.explore {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+main {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 99%;
+    position: center;
+}
+
+main h1 {
+    font-family: Bebas Neue;
+    font-size: 4.5em;
+    font-display: fixed;
+    color: #F2F2F2;
+    position: absolute;
+    size: fixed;
+    margin-top: -765px;
+    margin-left: 25%;
+    text-shadow: 2px 2px #3F402D;
+}
+
+.cta1 {
+    font-family: Bebas Neue;
+    text-decoration: none;
+    font-size: 2rem;
+    position: absolute;
+    text-align: center;
+    color: #F2F2F2;
+    background-color: #850000F5;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: -15px;
+    margin-top: -520px;
+    margin-left: 675px;
+    
+}
+
+
+/*Footer*/
+footer {
+background-color: #3F402D;
+font-family: Gentium;
+color: #F2F2F2;
+text-align: center;
+width: 1704px;
+height: 25px;
+padding-top: 10px;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.footermenu {
+    text-decoration: none;
+    color: #F2F2F2;
+    margin-left: 50px;
+}
+
+
